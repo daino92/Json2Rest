@@ -1,0 +1,136 @@
+#Json2Rest-container .wrap {
+    max-width: 600px;
+    margin: 10px auto 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#Json2Rest-container h2 {
+    text-align: center;
+}
+
+#Json2Rest-container .setting {
+    margin-bottom: 20px;
+}
+
+#Json2Rest-container label {
+    font-weight: bold;
+}
+
+#Json2Rest-container input[type="text"],
+#Json2Rest-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#Json2Rest-container .button-primary {
+    height: 40px;
+    width: 150px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#Json2Rest-container .button-primary:hover {
+    background-color: #005f80;
+}
+
+#Json2Rest-container .remove-json-block,
+#Json2Rest-container #add-json-block {
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+#Json2Rest-container .remove-json-block {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#Json2Rest-container .remove-json-block:hover {
+    background-color: #e60000;
+}
+
+#Json2Rest-container #add-json-block {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#Json2Rest-container #add-json-block:hover {
+    background-color: #45a049;
+}
+
+#Json2Rest-container .error {
+    margin: 10px 10px 0;
+    padding: 10px;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#Json2Rest-container .error p {
+    margin: 0;
+    font-size: 16px;
+}
+
+#Json2Rest-container .error a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#Json2Rest-container .error a:hover {
+    color: rgb(22, 22, 162);
+}
+
+#Json2Rest-container .updated {
+    color: #000;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    #Json2Rest-container .wrap {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #Json2Rest-container input[type="text"],
+    #Json2Rest-container textarea {
+        width: calc(100% - 20px);
+    }
+
+    #Json2Rest-container .button-primary,
+    #Json2Rest-container .remove-json-block,
+    #Json2Rest-container #add-json-block {
+        width: calc(50% - 10px);
+    }
+
+    #Json2Rest-container .button-primary {
+        margin-top: 0;
+    }
+}
